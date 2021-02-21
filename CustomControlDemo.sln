@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomControlDemo", "CustomControlDemo\CustomControlDemo.csproj", "{9D4C0114-35B6-40C9-96DF-8472815B059E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D4C0114-35B6-40C9-96DF-8472815B059E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D4C0114-35B6-40C9-96DF-8472815B059E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D4C0114-35B6-40C9-96DF-8472815B059E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D4C0114-35B6-40C9-96DF-8472815B059E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

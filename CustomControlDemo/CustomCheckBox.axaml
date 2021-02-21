@@ -1,0 +1,34 @@
+﻿<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="using:Avalonia.NETCoreApp">
+
+    <Design.PreviewWith>
+        <controls:CustomCheckBox IsChecked="False" />
+    </Design.PreviewWith>
+
+    <Style Selector="controls|CustomCheckBox">
+        <Setter Property="Template">
+            <ControlTemplate>
+                <StackPanel Orientation="Horizontal">
+                    <Rectangle Name="PART_Rectangle" Height="16" Width="16"/>
+                    <TextBlock Text="Templated Control" Margin="4" VerticalAlignment="Center" />
+                </StackPanel>
+            </ControlTemplate>
+        </Setter>
+    </Style>
+
+    <Style Selector="controls|CustomCheckBox /template/ Rectangle#PART_Rectangle">
+        <Setter Property="Stroke" Value="Black"/>
+        <Setter Property="StrokeThickness" Value="2"/>
+        <Setter Property="Fill" Value="Transparent"/>
+    </Style>
+    
+    <Style Selector="controls|CustomCheckBox:pointerover /template/ Rectangle#PART_Rectangle">
+        <Setter Property="Stroke" Value="Gray"/>
+    </Style>
+    
+    <Style Selector="controls|CustomCheckBox[IsChecked=True] /template/ Rectangle#PART_Rectangle">
+        <Setter Property="Fill" Value="Blue"/>
+    </Style>
+
+</Styles>
